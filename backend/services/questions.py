@@ -1,0 +1,57 @@
+QUESTIONS = [
+{"id":"q1","category":"Profile Visibility","text":"How visible is your main profile?","options":["private","friends","public"],"weights":{"private":0,"friends":1,"public":2}},
+{"id":"q2","category":"Profile Visibility","text":"Can people outside your network view your profile photo?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q3","category":"Profile Visibility","text":"Can people outside your network view your bio/about section?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q4","category":"Profile Visibility","text":"Are your followers/following lists broadly visible?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q5","category":"Personal Information","text":"Is your phone number visible on your profile?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q6","category":"Personal Information","text":"Is your email address visible on your profile?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q7","category":"Personal Information","text":"Is your birthday/date of birth visible?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q8","category":"Personal Information","text":"Is your workplace or education information visible?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q9","category":"Personal Information","text":"Is family/relationship information publicly visible?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q10","category":"Location Privacy","text":"Do you share real-time location while posting?","options":["never","sometimes","often"],"weights":{"never":0,"sometimes":1,"often":2}},
+{"id":"q11","category":"Location Privacy","text":"Do your photos/posts commonly contain location tags?","options":["never","sometimes","often"],"weights":{"never":0,"sometimes":1,"often":2}},
+{"id":"q12","category":"Location Privacy","text":"Do you publicly share home-area information?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q13","category":"Location Privacy","text":"Do you publicly share workplace/campus location?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q14","category":"Location Privacy","text":"Do you announce travel or vacation plans before/during the trip?","options":["never","sometimes","often"],"weights":{"never":0,"sometimes":1,"often":2}},
+{"id":"q15","category":"Posts & Content","text":"Are older posts still visible to a broad audience?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q16","category":"Posts & Content","text":"Do you regularly post photos with identifiable surroundings?","options":["rarely","sometimes","often"],"weights":{"rarely":0,"sometimes":1,"often":2}},
+{"id":"q17","category":"Posts & Content","text":"Do your posts reveal daily routines or schedules?","options":["never","sometimes","often"],"weights":{"never":0,"sometimes":1,"often":2}},
+{"id":"q18","category":"Posts & Content","text":"Do you share screenshots that may contain account information?","options":["never","sometimes","often"],"weights":{"never":0,"sometimes":1,"often":2}},
+{"id":"q19","category":"Connections","text":"Do you accept connection/follow requests from people you do not recognize?","options":["never","sometimes","often"],"weights":{"never":0,"sometimes":1,"often":2}},
+{"id":"q20","category":"Connections","text":"Do you periodically review your followers/connections?","options":["regularly","sometimes","never"],"weights":{"regularly":0,"sometimes":1,"never":2}},
+{"id":"q21","category":"Connections","text":"Can unknown people message you directly?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q22","category":"Connections","text":"Do you keep old or unknown connections indefinitely?","options":["rarely","sometimes","often"],"weights":{"rarely":0,"sometimes":1,"often":2}},
+{"id":"q23","category":"Tagging & Mentions","text":"Can anyone tag you in posts?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q24","category":"Tagging & Mentions","text":"Can anyone mention your username?","options":["no","limited","yes"],"weights":{"no":0,"limited":1,"yes":2}},
+{"id":"q25","category":"Tagging & Mentions","text":"Do you review tagged posts before they appear on your profile?","options":["always","sometimes","never"],"weights":{"always":0,"sometimes":1,"never":2}},
+{"id":"q26","category":"Account Security","text":"Is multi-factor authentication enabled?","options":["yes","not sure","no"],"weights":{"yes":0,"not sure":1,"no":2}},
+{"id":"q27","category":"Account Security","text":"Do you use a unique password for the account?","options":["yes","not sure","no"],"weights":{"yes":0,"not sure":1,"no":2}},
+{"id":"q28","category":"Account Security","text":"Do you use a password manager for important accounts?","options":["yes","sometimes","no"],"weights":{"yes":0,"sometimes":1,"no":2}},
+{"id":"q29","category":"Account Security","text":"Are login/security alerts enabled?","options":["yes","not sure","no"],"weights":{"yes":0,"not sure":1,"no":2}},
+{"id":"q30","category":"Account Security","text":"Do you review active sessions or logged-in devices?","options":["regularly","sometimes","never"],"weights":{"regularly":0,"sometimes":1,"never":2}},
+{"id":"q31","category":"Third-Party Apps","text":"Do you review connected third-party apps?","options":["regularly","sometimes","never"],"weights":{"regularly":0,"sometimes":1,"never":2}},
+{"id":"q32","category":"Third-Party Apps","text":"Do connected apps have more permissions than necessary?","options":["no","not sure","yes"],"weights":{"no":0,"not sure":1,"yes":2}},
+{"id":"q33","category":"Third-Party Apps","text":"Do you remove apps you no longer use?","options":["regularly","sometimes","never"],"weights":{"regularly":0,"sometimes":1,"never":2}},
+{"id":"q34","category":"Social Engineering","text":"Would you verify an unexpected request before responding?","options":["always","sometimes","never"],"weights":{"always":0,"sometimes":1,"never":2}},
+{"id":"q35","category":"Social Engineering","text":"Do you check links before opening unexpected messages?","options":["always","sometimes","never"],"weights":{"always":0,"sometimes":1,"never":2}},
+{"id":"q36","category":"Social Engineering","text":"Could an unknown person learn enough from your profile to impersonate someone you know?","options":["unlikely","possible","likely"],"weights":{"unlikely":0,"possible":1,"likely":2}},
+{"id":"q37","category":"Social Engineering","text":"Do you share information that could help answer security questions?","options":["never","sometimes","often"],"weights":{"never":0,"sometimes":1,"often":2}},
+{"id":"q38","category":"Digital Footprint","text":"Have you reviewed old public posts recently?","options":["yes","sometimes","no"],"weights":{"yes":0,"sometimes":1,"no":2}},
+{"id":"q39","category":"Digital Footprint","text":"Do you remove outdated public information?","options":["regularly","sometimes","never"],"weights":{"regularly":0,"sometimes":1,"never":2}},
+{"id":"q40","category":"Digital Footprint","text":"Are your public usernames consistent across multiple services?","options":["rarely","sometimes","often"],"weights":{"rarely":0,"sometimes":1,"often":2}},
+{"id":"q41","category":"Digital Footprint","text":"Have you checked what a stranger could learn from your public profile?","options":["yes","sometimes","no"],"weights":{"yes":0,"sometimes":1,"no":2}},
+{"id":"q42","category":"Digital Footprint","text":"Do you review privacy settings after major platform changes?","options":["yes","sometimes","no"],"weights":{"yes":0,"sometimes":1,"no":2}},
+]
+
+CATEGORIES = [
+"Profile Visibility","Personal Information","Location Privacy","Posts & Content",
+"Connections","Tagging & Mentions","Account Security","Third-Party Apps",
+"Social Engineering","Digital Footprint"
+]
+
+WEIGHTS = {
+"Profile Visibility":0.10,"Personal Information":0.15,"Location Privacy":0.15,
+"Posts & Content":0.10,"Connections":0.10,"Tagging & Mentions":0.05,
+"Account Security":0.15,"Third-Party Apps":0.05,"Social Engineering":0.10,
+"Digital Footprint":0.05
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PrivacyGuard — Social Media Privacy Risk Assessment</title>
+<link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header><div><h1>PrivacyGuard</h1><p>Social Media Privacy Risk Assessment Framework</p></div><span class="badge">DEFENSIVE • PRIVACY-FIRST</span></header>
+<main>
+<section class="hero"><h2>Assess your social-media privacy exposure</h2><p>This demo uses self-reported choices only. Never enter passwords, phone numbers, email addresses, home addresses, private messages, or exact locations.</p></section>
+<div class="progress"><div id="progressBar"></div></div>
+<section id="questionnaire" class="card"><div class="section-head"><h2>Privacy Questionnaire</h2><span id="counter"></span></div><div id="questionBox"></div><div class="actions"><button id="prev" class="secondary">Previous</button><button id="next">Next</button></div></section>
+<section id="result" class="card hidden">
+<div class="result-top"><div><p class="eyebrow">PRIVACY RISK SCORE</p><div id="score" class="score">0</div><div id="level" class="level">LOW</div></div><div><canvas id="chart"></canvas></div></div>
+<div class="grid"><div><h3>Key Findings</h3><div id="findings"></div></div><div><h3>Recommendations</h3><div id="recommendations"></div></div></div>
+<div class="simulation"><h3>Improvement Simulator</h3><p>Shows a hypothetical result if the lowest-risk answer were selected for every question. Simulation only.</p><button id="simulate">Simulate Improvement</button><div id="simulationResult"></div></div>
+<button id="restart" class="secondary">Start New Assessment</button>
+</section>
+<section class="card"><h2>Privacy Checklist</h2><div id="checklist" class="checklist"></div></section>
+<section class="card dashboard"><h2>Demo Dashboard</h2><div class="stats"><div><b id="total">0</b><span>Assessments</span></div><div><b id="avg">0</b><span>Average Score</span></div><div><b id="levels">0</b><span>Risk Categories</span></div></div></section>
+</main>
+<footer>PrivacyGuard • Educational defensive cybersecurity project • Synthetic/self-reported data only</footer>
+<script src="/js/app.js"></script>
+</body></html>
